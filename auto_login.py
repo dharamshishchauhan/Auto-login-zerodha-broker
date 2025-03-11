@@ -18,7 +18,6 @@ password = 'password'
 # Define the URL of the trading platform you want to use
 l_u = KiteConnect(api_key="apikey")
 login_url=l_u.login_url()
-print(login_url)
 time.sleep(5)
 #login_url = 'https://kite.trade/connect/login?api_key=wdz136by8cx4qy0x&v=3'
 
